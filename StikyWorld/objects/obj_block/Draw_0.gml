@@ -1,0 +1,1 @@
+draw_rectangle_ext(x, y, rx, by, 4, c_black);

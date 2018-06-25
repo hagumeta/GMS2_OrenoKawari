@@ -1,0 +1,2 @@
+//(bivration_range)
+draw_sprite_ext(sprite_index, image_index, x+irandom_range(-argument0, argument0), y+irandom_range(-argument0, argument0), image_xscale, image_yscale, image_angle, image_blend, image_alpha);

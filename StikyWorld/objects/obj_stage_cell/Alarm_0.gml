@@ -1,0 +1,1 @@
+roomto = asset_get_index("stage_"+zero_fill(stage_num, 3));

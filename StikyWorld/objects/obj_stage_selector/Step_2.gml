@@ -1,0 +1,1 @@
+stage[cursor].selected = true;

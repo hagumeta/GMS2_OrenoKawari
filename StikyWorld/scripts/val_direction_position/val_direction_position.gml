@@ -1,0 +1,1 @@
+return point_direction(x, y, argument0, argument1);

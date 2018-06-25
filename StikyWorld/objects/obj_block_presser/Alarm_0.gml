@@ -1,0 +1,2 @@
+hspeed = -hsp;
+vspeed = -vsp;

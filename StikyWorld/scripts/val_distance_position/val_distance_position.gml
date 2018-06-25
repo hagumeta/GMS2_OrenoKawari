@@ -1,0 +1,1 @@
+return point_distance(x, y, argument0, argument1);
