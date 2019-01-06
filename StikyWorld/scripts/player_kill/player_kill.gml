@@ -3,12 +3,13 @@ with(obj_player){
 		instance_create_depth(x, y, depth, obj_death_fired);
 	}
 	if(place_meeting(x, y, obj_needle)){
-		instance_create_depth(x-hspeed/4, y-vspeed/4, depth, obj_death_sticked);
+		//instance_create_depth(x-hspeed/4, y-vspeed/4, depth, obj_death_sticked);
+		instance_create_depth(x, y, depth, obj_death_sticked);		
 	}
 	if(place_meeting(x, y, obj_erec)){
 		instance_create_depth(x, y, depth, obj_death_erected);
 	}
-	death++;
+	global.stage_death++;
 	
 	var erec = instance_place(xstart, ystart, obj_player_corpse_erec);
 	instance_destroy(erec);

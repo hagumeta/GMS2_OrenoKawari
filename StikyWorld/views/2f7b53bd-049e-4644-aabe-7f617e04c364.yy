@@ -7,7 +7,8 @@
         "292884bd-e72d-493a-8617-9b0353a3526c",
         "9945c1c6-ae22-45a2-a3ba-cd27745fb5d5",
         "1dc338ff-082b-41d0-b350-0708bf05169f",
-        "186735b1-ab48-4e7d-ac9e-ade7ef40a34c"
+        "186735b1-ab48-4e7d-ac9e-ade7ef40a34c",
+        "c4a97f0b-caf1-47e6-85ae-9b37a1b40cfe"
     ],
     "filterType": "GMObject",
     "folderName": "player_corpse",

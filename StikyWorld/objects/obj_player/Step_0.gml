@@ -1,10 +1,13 @@
+
+wall_catch = (wall_meeting && !stand && vspeed > 0);
+
 if(frozen){
 	hspeed = 0;
 	vspeed = -gravity;
 	exit;
 }
 
-if(!keyboard_check(key_jump)){
+if(!BUTTON_ACT){
 	if(vspeed < 0){
 		vspeed *= 0.80;
 	}
@@ -19,7 +22,7 @@ if(lock){
 }
 
 //run
-var sp = keyboard_check(key_right) - keyboard_check(key_left);
+var sp = BUTTON_RIGHT - BUTTON_LEFT;
 if(wall_catch){
 	if(image_xscale == -sp || sp == 0){
 		if(count < 4){
@@ -35,7 +38,7 @@ if(wall_catch){
 hspeed = sp*run_speed;
 
 //jump
-if(keyboard_check_pressed(key_jump)){
+if(BUTTON_ACT_PRESSED){
 	if(stand){
 		vspeed = -jump_speed;
 	}
@@ -46,6 +49,7 @@ if(keyboard_check_pressed(key_jump)){
 		hspeed = image_xscale*run_speed;
 		lock = true;
 		alarm[0] = 5;
+		effect_jump_execute();
 	}
 }
 
@@ -53,5 +57,5 @@ if(wall_catch){
 	vspeed = 1;
 }
 
-stand = false;
-wall_catch = false;
+event_inherited();
+

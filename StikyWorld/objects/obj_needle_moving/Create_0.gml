@@ -1,0 +1,3 @@
+/// @desc
+
+hspeed = 3;

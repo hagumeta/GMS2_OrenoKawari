@@ -1,0 +1,33 @@
+{
+    "id": "73e1bcd5-28b3-482d-95a5-12b9af6cd3bd",
+    "modelName": "GMFolder",
+    "mvc": "1.1",
+    "name": "73e1bcd5-28b3-482d-95a5-12b9af6cd3bd",
+    "children": [
+        "eae1816e-d9ce-46a5-9054-16a975ca68b6",
+        "25d54782-90d8-453a-ad33-e5ef85ee12b5",
+        "ef4a0b81-3166-46ef-8958-ce5485994307",
+        "a933d194-df74-42ec-ad78-5a71bcfaf8a1",
+        "460933be-ef0f-4686-998b-f2d022e687fc",
+        "ab785ad9-8a21-46d6-9122-a0d9e404c3eb",
+        "092a15b8-e0a4-4ccb-b205-87518e8416fa",
+        "9e326050-ba8d-4141-b68e-4ca3ea998e1a",
+        "6aa14648-ed88-4abb-8cba-8aba55aa24f9",
+        "f9c3a219-c8a3-40d2-88bc-71decdeef448",
+        "c6ed68b7-38f4-4e24-9c18-0b6900488c79",
+        "b33b6aba-6f29-49c7-a279-8374e3b83442",
+        "bebedff2-0b72-49c1-b1a1-e8b20a5a99ad",
+        "908bd7e8-00b6-4df3-b22e-cb03a9dc8f2e",
+        "48c94786-d2cb-4c72-8f8c-e50fa09a3ab0",
+        "91496da0-74a0-443f-9136-9304e5be418b",
+        "b1e3afee-181e-4be8-afbd-e9925f69d24d",
+        "f2e217fc-b39e-4ad5-99d9-d987d4137741",
+        "26b90228-5274-45dc-a7db-623184bda844",
+        "bb3f662c-7b8d-4067-a48d-77dc661abae8",
+        "63317467-fb99-4939-87c5-8506a40d471d"
+    ],
+    "filterType": "",
+    "folderName": "sprites",
+    "isDefaultView": false,
+    "localisedFolderName": "ResourceTree_Sprites"
+}

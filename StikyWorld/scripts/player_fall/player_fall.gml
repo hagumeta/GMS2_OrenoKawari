@@ -1,5 +1,5 @@
 with(obj_player){
-	death++;
+	global.stage_death++;
 	x = xstart;
 	y = ystart;
 	
